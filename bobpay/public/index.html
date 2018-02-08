@@ -121,8 +121,7 @@
       });
     }
 
-    // Registers the payment app service worker by installing the default
-    // instruments.
+    // Unregisters the payment app service worker.
     function unregisterPaymentAppServiceWorker() {
       navigator.serviceWorker.getRegistration(SERVICE_WORKER_URL).then(function(registration) {
         registration.unregister().then((success) => {
