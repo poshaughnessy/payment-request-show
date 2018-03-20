@@ -2,7 +2,7 @@
  * Utilities for registering/unregistering the Payment App service worker...
  */
 
-const SERVICE_WORKER_URL = '/pay/sw-bobpay.js'
+const SERVICE_WORKER_URL = '/bobpay/public/pay/sw-bobpay.js'
 
 // Adds the BobPay default instrument.
 function addInstruments(registration) {
@@ -12,7 +12,7 @@ function addInstruments(registration) {
     {
       name: "My Bob Pay Account",
       icons: [{
-        src:"/pay/bobpay.png",
+        src:"/bobpay/public/pay/bobpay.png",
         sizes:"32x32",
         type:"image/png"}
       ],
