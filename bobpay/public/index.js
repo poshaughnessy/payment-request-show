@@ -1,5 +1,5 @@
 /**
- * Utilities for registering/unregistering the Payment App service worker.
+ * Utilities for registering/unregistering the Payment App service worker...
  */
 
 const SERVICE_WORKER_URL = '/pay/sw-bobpay.js'
